@@ -1,0 +1,12 @@
+// Variable declaration first!!
+@import "./base/variable";
+
+// Base Setup
+@import "./base/base.scss";
+@import "./base/typography";
+@import "./base/animation";
+@import "./base/layout";
+
+// Components
+@import "./components/button";
+@import "./components/effect";

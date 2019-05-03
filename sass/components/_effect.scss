@@ -1,0 +1,13 @@
+.bmw-light-effect {
+  display: flex;
+  justify-content: space-between;
+  &--1 {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(255, 241, 224), rgb(255, 255, 255));
+  }
+  &--2 {
+    transform: scale(1.5);
+  }
+}

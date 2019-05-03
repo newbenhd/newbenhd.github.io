@@ -4,10 +4,219 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans+Condensed:300|Roboto"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>BLM Website</title>
+    <title>BM Website</title>
   </head>
   <body>
-    Welcome to Benjamin's Personal Website on Github!!
+    <div class="container">
+      <header class="header">
+        <div class="logo">Benjamin Morrison</div>
+        <div class="resume">Resume</div>
+        <div class="contact">Contact</div>
+      </header>
+      <main class="content">
+        <nav class="content__sidebar">
+          <ul class="content__sidebar-nav">
+            <li class="content__sidebar-nav--item">
+              <a href="#" class="content__sidebar-nav--link">
+                <svg class="content__sidebar-nav--icon">
+                  <use xlink:href="./img/sprite.svg#icon-info"></use>
+                </svg>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="content__sidebar-nav--item">
+              <a href="#" class="content__sidebar-nav--link">
+                <svg class="content__sidebar-nav--icon">
+                  <use xlink:href="./img/sprite.svg#icon-folder"></use>
+                </svg>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li class="content__sidebar-nav--item">
+              <a href="#" class="content__sidebar-nav--link">
+                <svg class="content__sidebar-nav--icon">
+                  <use xlink:href="./img/sprite.svg#icon-hand"></use>
+                </svg>
+                <span>Activities</span>
+              </a>
+            </li>
+            <li class="content__sidebar-nav--item">
+              <a href="#" class="content__sidebar-nav--link">
+                <svg class="content__sidebar-nav--icon">
+                  <use xlink:href="./img/sprite.svg#icon-eye"></use>
+                </svg>
+                <span>Vision</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="content__detail">
+          <div class="content__detail--about">
+            <!-- <div class="bmw-light-effect">
+              <span class="bmw-light-effect--1">&nbsp;</span>
+              <span class="bmw-light-effect--2">&nbsp;</span>
+            </div> -->
+            <div class="whoami">
+              <h2 class="heading-secondary">
+                I'm a
+                <a
+                  target="_blank"
+                  href="https://en.wikipedia.org/wiki/Software_engineer"
+                  >Software Engineer</a
+                >
+              </h2>
+              <div class="about">
+                <ul class="about__list">
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">HTML5</span
+                    ><span class="about__list--item-second">3 Years</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">CSS & SASS</span
+                    ><span class="about__list--item-second">3 Years</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">Javascript</span
+                    ><span class="about__list--item-second">3 Years</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">Python</span
+                    ><span class="about__list--item-second">3 Years</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">Java</span
+                    ><span class="about__list--item-second">3 Years</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">React & Redux</span
+                    ><span class="about__list--item-second">1 Year</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >Version Control | Git</span
+                    ><span class="about__list--item-second">2 Years</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="location">
+              <h2 class="heading-secondary">
+                Located in
+                <a target="_blank" href="https://goo.gl/maps/DwtMZXPtCEVbxstZ9"
+                  >Orange County, CA</a
+                >
+              </h2>
+              <div class="about">
+                <ul class="about__list">
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Disneyland Park</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Newport Beach</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Laguna Beach</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Knott's Berry Farm</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Irvine Spectrum Center</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Dana Point Harbor</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Seal Beach</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Dodgers</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Lakers</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Six Flags</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Universal Studios</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="rationality">
+              <h2 class="heading-secondary">
+                Myself as a
+                <a
+                  target="_blank"
+                  href="https://en.wikipedia.org/wiki/Korean_Americans"
+                  >Korean-American</a
+                >
+              </h2>
+              <div class="about">
+                <ul class="about__list">
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Soju</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#K-Pop</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Samsung</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Hyundai</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">
+                      #Gyeongbokgung Palace</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first"
+                      >#Korean Street Food</span
+                    >
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Korean BBQ</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#e-Sport</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Spa</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Rae Myeon</span>
+                  </li>
+                  <li class="about__list--item">
+                    <span class="about__list--item-first">#Chimaek</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content__detail--work"></div>
+          <div class="content__detail--activities"></div>
+          <div class="content__detail--vision"></div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
